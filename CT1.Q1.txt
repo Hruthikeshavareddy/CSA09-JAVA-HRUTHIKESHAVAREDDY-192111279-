@@ -1,0 +1,16 @@
+public class ReverseAlphabet {
+    public static void main(String[] args) {
+        printAlphabetReverse();
+    }
+
+    public static void printAlphabetReverse() {
+        char startChar = 'Z';
+        char endChar = 'A';
+
+        System.out.println("Alphabet in Reverse Order:");
+
+        for (char ch = startChar; ch >= endChar; ch--) {
+            System.out.print(ch + " ");
+        }
+    }
+}
